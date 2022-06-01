@@ -5,6 +5,8 @@ import {
   Route,
 } from 'react-router-dom';
 import App from './components/App.jsx';
+import Expenses from './routes/expenses.jsx';
+import Invoices from './routes/invoices.jsx';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
