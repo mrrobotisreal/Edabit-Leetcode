@@ -25,7 +25,7 @@ public class Main {
     System.out.println("after deposit = " + acc.getBalance());
     acc.withdrawFunds(1000.00);
 
-    VIPCustomer vip = new VIPCustomer("Mitchell Wintrow", 100000000.00, "me@vip.com");
+    VIPCustomer vip = new VIPCustomer("Mitchell Wintrow", 1000000.00, "me@vip.com");
     System.out.println("New VIP Customer is " + vip.getName());
     System.out.println(vip.getName() + "'s credit limit is " + vip.getLimit());
     System.out.println(vip.getName() + "'s email is " + vip.getEmail());
