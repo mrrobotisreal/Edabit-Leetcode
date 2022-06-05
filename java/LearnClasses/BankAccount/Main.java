@@ -2,12 +2,18 @@ package java.LearnClasses.BankAccount;
 
 public class Main {
   public static void main(String[] args) {
-    BankAccount acc = new BankAccount();
-    acc.setAccountNumber(19528756);
-    acc.setBalance(100.50d);
-    acc.setCustomerName("Mitchell Wintrow");
-    acc.setEmail("me@email.com");
-    acc.setPhoneNumber("(970)-555-1234");
+    BankAccount acc = new BankAccount(19528756, 100.50d, "Mitchell Wintrow", "me@email.com", "(970) 555-4321");
+    // acc.setAccountNumber(19528756);
+    // acc.setBalance(100.50d);
+    // acc.setCustomerName("Mitchell Wintrow");
+    // acc.setEmail("me@email.com");
+    // acc.setPhoneNumber("(970)-555-1234");
+    // BankAccount acc = new BankAccount();
+    // acc.setAccountNumber(19528756);
+    // acc.setBalance(100.50d);
+    // acc.setCustomerName("Mitchell Wintrow");
+    // acc.setEmail("me@email.com");
+    // acc.setPhoneNumber("(970)-555-1234");
     System.out.println("account = " + acc.getAccountNumber());
     System.out.println("balance = " + acc.getBalance());
     System.out.println("customer = " + acc.getCustomerName());
