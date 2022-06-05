@@ -9,7 +9,7 @@ public class Car {
 
   public void setModel(String model) {
     String validModel = model.toLowerCase();
-    if (validModel.equals("porsche") || validModel.equals("mercedes")) {
+    if (validModel.equals("carrera") || validModel.equals("c class")) {
       this.model = model;
     }
   }
