@@ -11,6 +11,8 @@ public class Car {
     String validModel = model.toLowerCase();
     if (validModel.equals("carrera") || validModel.equals("c class")) {
       this.model = model;
+    } else {
+      this.model = "Unknown";
     }
   }
 
